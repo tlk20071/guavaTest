@@ -56,6 +56,7 @@ public class OrderingTest {
         System.out.println("按年龄排序：" + personOrdering.sortedCopy(personList));
         System.out.println("按年龄排序：" + personOrdering.reverse().sortedCopy(personList));
 
+
         System.out.println("xxxxxx");
 
     }
