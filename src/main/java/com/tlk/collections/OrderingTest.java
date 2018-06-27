@@ -11,10 +11,7 @@ import java.util.List;
  * Created by tanlk on 2018/2/5 15:57.
  */
 public class OrderingTest {
-    /**
-     *
-     * @param args
-     */
+
     public static void main(String[] args){
         List<String> list = Lists.newArrayList();
 
@@ -58,6 +55,8 @@ public class OrderingTest {
         };
         System.out.println("按年龄排序：" + personOrdering.sortedCopy(personList));
         System.out.println("按年龄排序：" + personOrdering.reverse().sortedCopy(personList));
+
+        System.out.println("xxxxxx");
 
     }
 }
