@@ -46,6 +46,7 @@ public class OrderingTest {
         personList.add(new Person("李雷",13));
         personList.add(new Person("苍老师",34));
         personList.add(new Person("韩梅梅",14));
+        personList.add(new Person("张三",18));
 
         System.out.println(personList);
 
